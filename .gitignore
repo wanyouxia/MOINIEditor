@@ -1,0 +1,35 @@
+# 运行时（自带的裁剪版 Python，体积大，不入库）
+python/
+
+# 打包产物
+_打包工具/pylibs/
+_打包工具/wheels/
+_打包工具/dist1/
+_打包工具/dist2/
+_打包工具/_build1/
+_打包工具/_build2/
+_打包工具/_tmp/
+文件夹版/
+*.exe
+*.spec
+
+# 工具运行时生成的数据（每个人的游戏目录、备份、副本都不同）
+app/data/rulesmo.base.ini
+app/data/backups/
+app/data/profiles/
+app/data/settings.txt
+app/data/geometry.txt
+app/data/notice_ok.txt
+app/data/save.log
+app/data/dbg.txt
+app/data/error.log
+
+# 其它
+__pycache__/
+*.pyc
+_site/
+_tmp/
+tmp*/
+
+# 本地版本归档（exe 走 Releases）
+dist_archive/
